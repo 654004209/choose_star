@@ -1,0 +1,368 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=375,user-scalable=no">
+		<title>球员选择</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/base2.css" />
+	</head>
+	<body>
+		<div class="content">
+			<div class="top_bg">
+				<div class="btn_box">
+					<a href="#" class="btn_ball btn_1">
+						<div class="btn_ball_img">
+							<img src="img/btn_click.png" alt="" id="head1" />
+						</div>
+						<span></span>
+					</a>
+					<a href="#" class="btn_ball btn_2">
+						<div class="btn_ball_img">
+							<img src="img/btn_click.png" alt="" id="head2" />
+						</div>
+						<span></span>
+					</a>
+					<a href="#" class="btn_ball btn_3">
+						<div class="btn_ball_img">
+							<img src="img/btn_click.png" alt="" id="head3" />
+						</div>
+						<span></span>
+					</a>
+					<a href="#" class="btn_ball btn_4">
+						<div class="btn_ball_img">
+							<img src="img/btn_click.png" alt="" id="head4" />
+						</div>
+						<span></span>
+					</a>
+					<a href="#" class="btn_ball btn_5">
+						<div class="btn_ball_img">
+							<img src="img/btn_click.png" alt="" id="head5" />
+						</div>
+						<span></span>
+					</a>
+				</div>
+			</div>
+			<div class="bottom_man">
+				<div class="title_balls">
+					<span class="tab_btn tab_btn_hot active">热门</span>
+					<span class="tab_btn tab_btn_qd ">球队</span>
+				</div>
+				<div class="content_balls">
+					<div class="remen">
+						<!--插入热门球员-->
+						<div class="mans qiu_yuan" qiu="lb1">
+							<div class="manTx">
+								<img src="playerhead/CR7.jpg" alt="" />
+							</div>
+							<div class="checks"></div>
+							<span>克里斯蒂亚诺·罗纳尔多</span>
+						</div>
+
+					</div>
+					<div class="qiudui">
+						<!--插入球队-->
+						<div class="team_box">
+							<div class="mans qiudui_s" id="baxi">
+								<div class="manTx ">
+									<img src="img/team/baxi/jpg2.jpg" alt="" />
+								</div>
+								<div class="checks1"></div>
+								<span>巴西</span>
+							</div>
+							<div class="mans qiudui_s" id="france">
+								<div class="manTx">
+									<img src="img/team/france/logo.jpg" alt="" />
+								</div>
+								<div class="checks1"></div>
+								<span>法国</span>
+							</div>
+							<div class="mans qiudui_s" id="arsenal">
+								<div class="manTx ">
+									<img src="playerhead/Arsenal.PNG" alt="" />
+								</div>
+								<div class="checks1"></div>
+								<span>阿森纳</span>
+							</div>
+						</div>
+						<div class="team_mans baxi">
+							<div class="mans back">
+								<div class="manTx">
+									<img src="img/back.png" alt="" />
+								</div>
+								<div class="checks1"></div>
+								<span>返回</span>
+							</div>
+							<div class="mans qiu_yuan" qiu="Casemiro">
+								<div class="manTx">
+									<img src="img/team/baxi/Casemiro.jpg" alt="" />
+								</div>
+								<div class="checks"></div>
+								<span>Casemiro</span>
+							</div>
+							<div class="mans qiu_yuan" qiu="lb7">
+								<div class="manTx">
+									<img src="img/team/baxi/Marcelo.jpg" alt="" />
+								</div>
+								<div class="checks"></div>
+								<span>马塞洛</span>
+							</div>
+							<div class="mans qiu_yuan" qiu="Neymar">
+								<div class="manTx">
+									<img src="img/team/baxi/Neymar.JPEG" alt="" />
+								</div>
+								<div class="checks"></div>
+								<span>Neymar</span>
+							</div>
+
+						</div>
+						<div class="team_mans france">
+							<div class="mans back">
+								<div class="manTx">
+									<img src="img/back.png" alt="" />
+								</div>
+								<div class="checks1"></div>
+								<span>返回</span>
+							</div>
+							<div class="mans qiu_yuan" qiu="Kante">
+								<div class="manTx">
+									<img src="img/team/france/Kante.jpg" alt="" />
+								</div>
+								<div class="checks"></div>
+								<span>Kante</span>
+							</div>
+							<div class="mans qiu_yuan" qiu="pogba">
+								<div class="manTx">
+									<img src="img/team/france/pogba.jpg" alt="" />
+								</div>
+								<div class="checks"></div>
+								<span>pogba</span>
+							</div>
+							<div class="mans qiu_yuan" qiu="Thuram">
+								<div class="manTx">
+									<img src="img/team/france/Thuram.jpg" alt="" />
+								</div>
+								<div class="checks"></div>
+								<span>Thuram</span>
+							</div>
+							<div class="mans qiu_yuan" qiu="Zidane">
+								<div class="manTx">
+									<img src="img/team/france/Zidane.jpg" alt="" />
+								</div>
+								<div class="checks"></div>
+								<span>Zidane</span>
+							</div>
+						</div>
+						<div class="team_mans arsenal">
+							<div class="mans back">
+								<div class="manTx">
+									<img src="img/back.png" alt="" />
+								</div>
+								<div class="checks1"></div>
+								<span>返回</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--模态框-->
+		<div class="mutai_box">
+			当前球员已被选择
+		</div>
+		<div class="next_btnBox">
+			<div class="pow_btn">上一步</div>
+			<div class="next_btn">下一步</div>
+		</div>
+
+		<div class="bottom_mo">
+			<div style="text-align: center;" class="sc_btn">
+				<button class="shengcheng" onclick="getPic()">点击生成图片</button>
+				
+			</div>
+			<div class="left">
+				<div class="erweima">
+					<img style="width: 100%;" src="img/qr.png" alt="" />
+				</div>
+			</div>
+			<div class="right">
+				<p class="jl_text">
+					主教练：
+				</p>
+				<p class="time">
+					创建时间：
+				</p>
+				<p class="support">
+					技术支持：<img style="position:relative;width: 60px;height: 15px;" src="img/24.png" alt="" />
+				</p>
+			</div>
+		</div>
+		<div class="mutai_jiaolian">
+			<div class="ctt">
+				<p>请输入主教练名称：</p>
+				<input class="jl_name" type="text" maxlength="7" />
+				<hr />
+				<div class="cr">确定</div>
+			</div>
+		</div>
+		<script src="js/jquery.js"></script>
+		<script src="js/dom-to-image.js"></script>
+		<script src="js/FileSaver.js"></script>
+		<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript">
+			function getPic() {
+				var imgUrl = "https://image.24zbw.com/images/activity/basbg.jpg!";
+				var url = "";
+				var jiaolian = $(".jl_name").val().toString(); //教练名字
+
+				$.base64.utf8encode = true;
+
+				//二维码
+				imgUrl += "/watermark/url/" + $.base64.encode("/images/basketball/16.png") + "/margin/180x1033/percent/12";
+
+				//教练名称
+				if(jiaolian == "") jiaolian = "未知"
+				imgUrl += "/watermark/text/" + encodeURIComponent($.base64.encode(jiaolian)) + "/font/simhei/size/28/margin/428x1027/color/FFFFFF";
+
+				var myDate = new Date();
+				var y = myDate.getFullYear();
+				var m = myDate.getMonth() + 1 > 9 ? myDate.getMonth() + 1 : '0' + Number(myDate.getMonth() + 1); //获取当前月份(0-11,0代表1月)
+				var d = myDate.getDate() > 9 ? myDate.getDate() : '0' + myDate.getDate(); //获取当前日(1-31)
+
+				//日期
+				imgUrl += "/watermark/text/" + encodeURIComponent($.base64.encode(y + '-' + m + '-' + d)) + "/font/Arial/size/28/margin/430x1087/color/FFFFFF";
+
+				if($("#head1").attr("src") == "img/btn_click.png") {
+					url = "/images/activity/btn_click.png";
+				} else {
+					url = $("#head1").attr("src").replace("https://image.24zbw.com", "") + "!/format/png/roundrect/200";
+				}
+				imgUrl += "/watermark/url/" + $.base64.encode(url) + "/margin/60x612/percent/11";
+
+				if($("#head2").attr("src") == "img/btn_click.png") {
+					url = "/images/activity/btn_click.png";
+				} else {
+					url = $("#head2").attr("src").replace("https://image.24zbw.com", "") + "!/format/png/roundrect/200";
+				}
+				imgUrl += "/watermark/url/" + $.base64.encode(url) + "/margin/212x470/percent/11";
+
+				if($("#head3").attr("src") == "img/btn_click.png") {
+					url = "/images/activity/btn_click.png";
+				} else {
+					url = $("#head3").attr("src").replace("https://image.24zbw.com", "") + "!/format/png/roundrect/200";
+				}
+				imgUrl += "/watermark/url/" + $.base64.encode(url) + "/margin/456x470/percent/11";
+
+				if($("#head4").attr("src") == "img/btn_click.png") {
+					url = "/images/activity/btn_click.png";
+				} else {
+					url = $("#head4").attr("src").replace("https://image.24zbw.com", "") + "!/format/png/roundrect/200";
+				}
+				imgUrl += "/watermark/url/" + $.base64.encode(url) + "/margin/610x612/percent/11";
+
+				if($("#head5").attr("src") == "img/btn_click.png") {
+					url = "/images/activity/btn_click.png";
+				} else {
+					url = $("#head5").attr("src").replace("https://image.24zbw.com", "") + "!/format/png/roundrect/200";
+				}
+				imgUrl += "/watermark/url/" + $.base64.encode(url) + "/margin/330x580/percent/11";
+
+				window.location.href = imgUrl
+			}
+
+			//批量插入热门球员数据
+			$.ajax({
+				type: "get",
+				url: "json/man.json",
+				dataType: "json",
+				success: function(data) {
+					console.log(data);
+					$('.remen').html('');
+					for(let i = 0; i < data.length; i++) {
+						var manlist = '<div class="mans qiu_yuan" qiu="' + data[i].id + '"><div class="manTx"><img src="' + data[i].url + '" alt="" /></div><div class="checks"></div><span>' + data[i].name + '</span></div>';
+						$('.remen').append(manlist);
+					}
+					
+
+					function qiu_hot() {
+						if($('.tab_btn_hot').hasClass('active')) {
+							$('.remen').show();
+							$('.qiudui').hide();
+						} else if($('.tab_btn_qd').hasClass('active')) {
+							$('.qiudui').show();
+							$('.remen').hide();
+						}
+					}
+					
+					qiu_hot();
+					$('.remen').css('width', $('.remen .mans').length * 90 / 2 + 85);
+					$('.qiudui').css('width', ($('.qiudui .mans').length * 90 / 2 - 85) > 375 ? $('.qiudui .mans').length * 90 / 2 - 85 : 375);
+					$('.btn_ball').click(function() {
+						$('.btn_ball').removeClass('active');
+						$(this).addClass('active');
+					})
+					$('.qiu_yuan').click(function() {
+						if($('.btn_ball.active')[0]) {
+							if($(this).hasClass('active')) {
+								//						alert('当前球员已被选择！')aa
+								$('.mutai_box').show().text('当前球员已被选择！').css('margin-left', -$('.mutai_box').width() / 2 - 20).stop(1000).fadeOut(1000);
+							} else {
+								$('.btn_ball.active').attr('qiuyuan', $(this).attr('qiu'));
+								$('[qiu]').removeClass('active');
+								for(i = 0; i < $('[qiuyuan]').length; i++) {
+									$($('[qiuyuan]')[i]).find('img').attr('src', $('[qiu=' + $($('[qiuyuan]')[i]).attr('qiuyuan') + ']').find('img').attr('src'));
+									$($('[qiuyuan]')[i]).find('span').text($($('[qiu=' + $($('[qiuyuan]')[i]).attr('qiuyuan') + ']')[0]).find('span').text());
+									$('[qiu=' + $($('[qiuyuan]')[i]).attr('qiuyuan') + ']').addClass('active');
+								}
+							}
+						} else {
+							$('.mutai_box').show().text('请先点击气泡，再选择球员！').css('margin-left', -$('.mutai_box').width() / 2 - 20).stop(1000).fadeOut(1000);
+						}
+					})
+					$('.tab_btn').click(function() {
+						$('.tab_btn').removeClass('active');
+						$(this).addClass('active');
+						qiu_hot();
+					})
+					$('.qiudui_s').click(function() {
+						var team_name = '.team_mans.' + $(this).attr('id');
+						$('.team_box').hide();
+						$(team_name).show();
+						console.log(team_name);
+					})
+					$('.back').click(function() {
+						$('.team_box').show();
+						$('.team_mans').hide();
+					})
+					$('.next_btn').click(function() {
+						$('.mutai_jiaolian').show();
+					})
+					$('.cr').click(function() {
+						$('.mutai_jiaolian').hide();
+						$('.jl_text').text('主教练:' + $('.jl_name').val());
+						$('.bottom_man').hide();
+						$('.top_bg').css('background-color', '#294970');
+						$('.bottom_mo').show();
+						$('.next_btn').hide();
+						$('.next_btnBox').css('color', '#fff');
+						//创建时间
+						var myDate = new Date();
+						var year = myDate.getFullYear();
+						var yue = myDate.getMonth() + 1 > 9 ? myDate.getMonth() + 1 : '0' + Number(myDate.getMonth() + 1); //获取当前月份(0-11,0代表1月)
+						var day = myDate.getDate() > 9 ? myDate.getDate() : '0' + myDate.getDate(); //获取当前日(1-31)
+						$('.time').text('创建时间： ' + year + '-' + yue + '-' + day);
+					})
+					$('.pow_btn').click(function() {
+						$('.bottom_man').show();
+						$('.top_bg').css('background-color', '#fff');
+						$('.bottom_mo').hide();
+						$('.next_btn').show();
+						$('.next_btnBox').css('color', '#000');
+					})
+				}
+			});
+		</script>
+		<script src='js/jquery.base64.js'></script>
+	</body>
+
+</html>
